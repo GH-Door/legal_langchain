@@ -2,8 +2,27 @@
 # prev .gitignore
 .DS_Store
 .env
+.env.template
+.env.example
 /.venv
 __pycache__/
+
+## logs & results (runtime generated)
+logs/
+results/
+
+## Hydra runtime outputs
+hydra/
+
+## Zone.Identifier (Windows/WSL artifact)
+*:Zone.Identifier
+
+## Lock files (large, reproducible)
+poetry.lock
+uv.lock
+
+## data - PDF (large binary)
+data/*.pdf
 
 # Created by https://www.toptal.com/developers/gitignore/api/macos,emacs,visualstudiocode,vim,python,linux,windows
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,emacs,visualstudiocode,vim,python,linux,windows

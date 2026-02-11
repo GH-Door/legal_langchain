@@ -1,7 +1,11 @@
+[tool.poetry]
+name = "legal-rag"
+packages = [{include = "rag"}, {include = "src"}]
+
 [project]
-name = "upstageailab-langchain-pjt-langchain-1"
+name = "legal-rag"
 version = "0.1.0"
-description = "langchain-Project"
+description = "Legal RAG System"
 readme = "README.md"
 requires-python = ">=3.11,<3.12"
 dependencies = [
@@ -86,6 +90,15 @@ dependencies = [
     "pinecone",
     "wikipedia",
     "scikit-learn",
+    "hydra-core",
+    "omegaconf>=2.3.0",
+    "sentence-transformers>=5.1.0",
+    "anthropic",
+    "gradio>=5.43.1",
+    "requests>=2.32.5",
+    "einops>=0.8.1",
+    "ipykernel>=6.30.1",
+    "plotly",
 ]
 
 [build-system]
