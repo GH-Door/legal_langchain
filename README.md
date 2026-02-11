@@ -7,7 +7,7 @@
 
 **LangChain 기반 대한민국 판례 질의응답 시스템**
 
-<img src="assets/demo_main.png" alt="Main" width="350"> <img src="assets/demo_chart.png" alt="Chart" width="350"> <img src="assets/demo_detail.png" alt="Detail" width="350">
+<img src="assets/demo_main.png" alt="Main" width="30%" style="border-radius:8px;box-shadow:4px 4px 15px rgba(0,0,0,0.3);">&nbsp;&nbsp;<img src="assets/demo_chart.png" alt="Chart" width="30%" style="border-radius:8px;box-shadow:4px 4px 15px rgba(0,0,0,0.3);">&nbsp;&nbsp;<img src="assets/demo_detail.png" alt="Detail" width="30%" style="border-radius:8px;box-shadow:4px 4px 15px rgba(0,0,0,0.3);">
 
 <br>
 
